@@ -166,3 +166,25 @@ footer {
   line-height: 32px;
   /* margin: 0 0 15px 0; */
 }
+
+.sub-control {
+  border-radius: 0;
+  min-height: 46px !important;
+}
+
+#btn-sub {
+  background: #7fad39 !important;
+  border-color: #7fad39 !important;
+}
+
+.icon-app {
+  min-height: 41px !important;
+  min-width: 41px !important;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-app:hover {
+  background-color: #7fad39 !important;
+  color: white !important;
+}
