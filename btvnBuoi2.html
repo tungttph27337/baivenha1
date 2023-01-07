@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="btvnBuoi2.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+  <body>
+    <div class="container mt-3">
+      <header>
+        <div class="row m-0 p-0 col-10 m-auto">
+          <div class="col-3 m-0 p-0">
+            <div class="">
+              <img
+                src="https://themewagon.github.io/ogani/img/logo.png"
+                alt=""
+                width=""
+              />
+            </div>
+          </div>
+          <div class="d-flex align-items-center col-6 m-0 p-0 pt-2">
+            <div class="ps-4 pe-4">
+              <a class="textHeader" href="">Home</a>
+            </div>
+            <div class="ps-4 pe-4">
+              <a class="textHeader" href="">Shop</a>
+            </div>
+            <div class="ps-4 pe-4">
+              <a class="textHeader" href="">Pages</a>
+            </div>
+            <div class="ps-4 pe-4">
+              <a class="textHeader" href="">Blog</a>
+            </div>
+            <div class="ps-4 pe-4">
+              <a class="textHeader" href="">Contact</a>
+            </div>
+          </div>          
+          <div class="col-3 m-0 p-0 text-end d-flex justify-content-center">
+            
+            <button type="button" class="btn position-relative backGroundIcon">
+              <i class="fa-sharp fa-solid fa-heart icon"></i>
+              <span class="position-absolute top-0 start-100 translate-middle rounded-pill badge">
+                1
+              </span>
+            </button>
+            <button type="button" class="btn position-relative backGroundIcon">
+              <i class="fa-solid fa-bag-shopping icon"></i>
+              <span class="position-absolute top-0 start-100 translate-middle rounded-pill badge">
+                3
+              </span>
+            </button>
+            <div class="ms-3 item">
+              item:
+            </div>
+            <div class="priceSmail">
+              $150.00
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="container col-10 p-0 m-auto">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/apple.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/banana.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/grape.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/guava.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/hambeger.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/mango.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/meat.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+            <div class="carousel-item container">
+              <img src="images/watermelon.png" class="d-block m-auto" alt="..." width="400px">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="featured">
+          <div>Featured Product</div>
+          <p class="space">_____</p>
+        </div>
+        <div class="row mt-5 mb-3">
+          <div class="d-flex justify-content-center">
+            <button class="optionFruit ">All</button>
+            <button class="optionFruit ">Oranges</button>
+            <button class="optionFruit ">Fresh Meat</button>
+            <button class="optionFruit ">Vegestables</button>
+            <button class="optionFruit ">Fastfood</button>
+          </div>
+        </div>
+
+        <div class="row m-0 p-0 container">
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/meat.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/banana.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/guava.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/watermelon.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/grape.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/hambeger.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/mango.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 mt-4">
+            <div class="card w-100 border-white" style="width: 18rem;">
+              <img src="images/apple.png" class="card-img-top" alt="..." width="300px">
+              <div class="card-body">
+                <div class="text-center borderName">
+                  <a class="card-text text-center name" href="#">Crab Pool Security</a>
+                </div>
+                <p class="price">$30.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex mt-5">
+          <div class="row col-10 m-0 p-0 w-100">
+            <div class="col-6 w-50">
+              <img class="container p-0" src="https://themewagon.github.io/ogani/img/banner/banner-1.jpg" alt="" width="100%">
+            </div>
+            <div class="col-6 w-50">
+              <img class="container p-0" src="	https://themewagon.github.io/ogani/img/banner/banner-2.jpg" alt="" width="100%">
+            </div>
+          </div>
+        </div>
+        <div class="featured">
+          <div>From The Blog</div>
+          <p class="space">_____</p>
+        </div>
+        <div class=" m-auto">
+          <div class="row m-0 p-0 m-auto">
+            <div class="col-4 mt-4  m-auto">
+              <div class="card w-100 border-white" style="width: 18rem;">
+                <img src="https://themewagon.github.io/ogani/img/blog/blog-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body ps-0 pe-0">
+                  <div class="borderName calendar w-100 mt-2 mb-3">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span class="me-2">May 4, 2019</span>
+                    <i class="fa-regular fa-comment"></i>
+                    <span>5</span>
+                  </div>
+                  <p class="noPrice">Cooking tips make cooking simple</p>
+                  <p class="content">Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-4  m-auto">
+              <div class="card w-100 border-white" style="width: 18rem;">
+                <img src="https://themewagon.github.io/ogani/img/blog/blog-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body ps-0 pe-0">
+                  <div class="borderName calendar w-100 mt-2 mb-3">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span class="me-2">May 4, 2019</span>
+                    <i class="fa-regular fa-comment"></i>
+                    <span>5</span>
+                  </div>
+                  <p class="noPrice">6 ways to prepare breakfast for 30</p>
+                  <p class="content">Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 mt-4  m-auto">
+              <div class="card w-100 border-white" style="width: 18rem;">
+                <img src="https://themewagon.github.io/ogani/img/blog/blog-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body ps-0 pe-0">
+                  <div class="borderName calendar w-100 mt-2 mb-3">
+                    <i class="fa-regular fa-calendar"></i>
+                    <span class="me-2">May 4, 2019</span>
+                    <i class="fa-regular fa-comment"></i>
+                    <span>5</span>
+                  </div>
+                  <p class="noPrice">Visit the clean farm in the US in the US</p>
+                  <p class="content">Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+      </section>
+      
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row col-10 m-auto">
+          <div class="col-4">
+            <img class="mb-1" src="https://themewagon.github.io/ogani/img/logo.png" alt="" width=""/>
+            <div class="mt-3">
+              Address: 60-49 Road 11378 New York
+            </div>
+            <div class="mt-3">
+              Phone: +65 11.188.888
+            </div>
+            <div class="mt-3">
+              Email: hello@colorlib.com
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="contentFooterBold">
+              Useful Links
+            </div>
+            <div class="contentFooter">
+              About us
+            </div>
+            <div class="contentFooter">
+              About Our Shop
+            </div>
+            <div class="contentFooter">
+              Secure Shopping
+            </div>
+            <div class="contentFooter">
+              Delivery Infomation
+            </div>
+            <div class="contentFooter">
+              Privacy Policy
+            </div>
+            <div class="contentFooter">
+              Our Sitemap
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="contentFooterBoldcol">
+              .
+            </div>
+            <div class="contentFooter">
+              Who We Are
+            </div>
+            <div class="contentFooter">
+              Our Services
+            </div>
+            <div class="contentFooter">
+              Projects
+            </div>
+            <div class="contentFooter">
+              Contact
+            </div>
+            <div class="contentFooter">
+              Innovation
+            </div>
+            <div class="contentFooter">
+              Testimonials
+            </div>
+          </div>
+          <div class="col-4 ">
+            <div class="contentFooterBold">
+              Join Our Newsletter Now
+            </div>
+            <div class="contentFooter">
+              Get E-mail updates about our latest shop and special offers.
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/6189a5b91e.js" crossorigin="anonymous"></script>
+  </body>
+</html>

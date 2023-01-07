@@ -1,0 +1,168 @@
+.textHeader {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Cairo", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 5px 0;
+  line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.textHeader:hover {
+  color: #7fad39;
+}
+
+.featured {
+  color: #1c1c1c;
+  font-weight: 700;
+  position: relative;
+  font-size: 36px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.optionFruit {
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border: none;
+  background-color: white;
+}
+
+.optionFruit {
+
+}
+
+.price {
+  font-size: 18px;
+  color: #252525;
+  font-weight: bolder;
+  font-family: sans-serif;
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+.designImage {
+  justify-content: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.space {
+  margin-top: -40px;
+  color: #7fad39;
+}
+
+.name {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.borderName {
+  margin-bottom: 10px;
+  margin-top: -5px;
+}
+
+.calendar{
+  font-size: 16px;
+  color: #b2b2b2;
+}
+
+.noPrice {
+  font-size: 18px;
+  color: #252525;
+  font-weight: bolder;
+  font-family: sans-serif;
+  line-height: 1.2;
+  text-align: start;
+}
+
+.content {
+  color: #6f6f6f;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+
+.icon {
+  font-size: 18px;
+  color: black;
+}
+
+.backGroundIcon {
+  background-color: white;
+  border: 1px solid white;
+  padding: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 11px;
+}
+
+.badge {
+  font-size: 9px;
+  top: 5px !important;
+  background-color: #7fad39;
+}
+
+.item{
+  margin-top: 17px;
+}
+
+.priceSmail{
+  font-size: 14px;
+  margin-top: 19px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #F3F6FA;
+  padding-top: 70px;
+  margin-top: 60px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  color: #1c1c1c !important;
+  background-color: #7fad39 !important;
+  border-radius: 5px;
+}
+
+.contentFooterBold {
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.contentFooterBoldcol {
+  color: #F3F6FA;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.contentFooter {
+  font-size: 14px;
+  color: #6f6f6f;
+  font-family: sans-serif;
+  line-height: 32px;
+  /* margin: 0 0 15px 0; */
+}
